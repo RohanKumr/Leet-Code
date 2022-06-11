@@ -18,7 +18,7 @@ const ans = reverseString(input);
 
 function verify() {
 	const rev = input.reverse();
-	return ans == rev
+	console.log(ans == rev)
 }
 
-console.log(verify())
+verify()
